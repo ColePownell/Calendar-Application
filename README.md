@@ -1,12 +1,3 @@
-# Calendar-Application
-A calendar app that allows GPS and Event matching with other users
-
-The main function as a calendar app will adding events that will allow you to receive reminders when they come closer. 
-
-wiht features like event descriptions, times, custom notifications, and people attending.
-Other things that  thta will be involved are a GPS system that also checks if you are close to a location set for the event to trigger a notification. and connecting to other people calendars to coordinate events or send event invitations if that is something feasible in this course.
-
-Meetings will be be once a week or as needed. 
 
 ## Introduction
 
@@ -147,14 +138,30 @@ GPS can send alerts to both parties the event planner and the attendee's.
 **Then** If I dont add my current location then the GPS will not be available.
 
 ## Class Diagram
+![image](https://user-images.githubusercontent.com/77586024/170885607-8f515471-662e-4b29-ab10-0027695e9050.png)
 
 
 ## Class Diagram Description
+mainActivity: the main calendar screen used to veiw events
 
+eventDetailsActivity: used to see details about an event clicked on from main activity
+
+createEventActivity: where you create and event and set all of the nessesary data for the event object
+
+Event: noun that represents an Event
+
+mainVeiwModel: to manage data for the mainActivity 
+
+createEventViewModel: to manages data for the createEventActivity 
+
+IEventDAO: interface for room to persist event data
 
 ## Scrum Roles 
+Dev/Ops - Cole Pownell
 
-Front End Developer - Sam Gehrlich
+Front End Developer - Sam Gehrlich, Eric Miller
+
+Integration Developer - Anish Selar, Mark Rankey
 
 ## Weekly Meeting 
 
