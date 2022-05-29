@@ -142,17 +142,17 @@ GPS can send alerts to both parties the event planner and the attendee's.
 
 
 ## Class Diagram Description
-mainActivity: the main calendar screen used to veiw events
+mainActivity: the main calendar screen used to view events
 
 eventDetailsActivity: used to see details about an event clicked on from main activity
 
-createEventActivity: where you create and event and set all of the nessesary data for the event object
+createEventActivity: where you create an event and set all of the nessesary data for the event object
 
 Event: noun that represents an Event
 
 mainVeiwModel: to manage data for the mainActivity 
 
-createEventViewModel: to manages data for the createEventActivity 
+createEventViewModel: to manage data for the createEventActivity 
 
 IEventDAO: interface for room to persist event data
 
